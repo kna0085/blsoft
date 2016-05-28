@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="1.854" errors="0" skipped="0" tests="1" name="com.ar.springex.repository.JPATematicaDaoTest">
+<testsuite failures="0" time="0.987" errors="0" skipped="0" tests="2" name="com.ar.springex.repository.JPATematicaDaoTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.6.0_45\jre\bin"/>
@@ -13,10 +13,10 @@
     <property name="user.country" value="AR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
-    <property name="test" value="com.ar.springex.repository.JPATematicaDaoTest#testSave"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\Users\exb45049\Desktop\mavenproject3\SpringEx"/>
     <property name="java.runtime.version" value="1.6.0_45-b06"/>
+    <property name="netbeans.deploy" value="true"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\endorsed"/>
     <property name="os.arch" value="x86"/>
@@ -44,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.0"/>
     <property name="sun.arch.data.model" value="32"/>
     <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.6.0_45\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.ar.springex.repository.JPATematicaDaoTest#testSave -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.0.1\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dnetbeans.deploy=true -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.0.1\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 package"/>
     <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.language" value="es"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -61,5 +61,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase time="1.854" classname="com.ar.springex.repository.JPATematicaDaoTest" name="testSave"/>
+  <testcase time="0.706" classname="com.ar.springex.repository.JPATematicaDaoTest" name="testSave"/>
+  <testcase time="0.281" classname="com.ar.springex.repository.JPATematicaDaoTest" name="testGetAll"/>
 </testsuite>

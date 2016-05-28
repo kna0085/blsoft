@@ -6,6 +6,7 @@
 package com.ar.springex.repository;
 
 import com.ar.springex.domain.Tematica;
+import com.ar.springex.repository.TematicaDao;
 import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

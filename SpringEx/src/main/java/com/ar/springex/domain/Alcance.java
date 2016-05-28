@@ -1,8 +1,21 @@
 package com.ar.springex.domain;
 
-public class Alcance {
+import java.io.Serializable;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
-    private Long id;
+@Entity
+@Table(name = "alcance")
+public class Alcance implements Serializable {
+
+    @Id
+    @Column(name = "id")
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Integer id;
 
     private String codigo;
 
@@ -20,7 +33,7 @@ public class Alcance {
         this.oldId = oldId;
     }
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -36,7 +49,7 @@ public class Alcance {
         return habilitado;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

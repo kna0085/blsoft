@@ -11,3 +11,19 @@ CREATE TABLE products (
   price decimal(15,2)
 );
 CREATE INDEX products_description ON products(description);
+
+
+create table tematica(
+	id integer primary key auto_increment,
+	codigo varchar(255),
+	descripcion varchar(255),
+	habilitado boolean,
+	oldid integer);
+	
+	
+create table alcance(
+	id integer primary key auto_increment,
+	codigo varchar(255),
+	descripcion varchar(255),
+	habilitado boolean,
+	oldid integer);

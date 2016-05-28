@@ -10,7 +10,6 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "tematica")
-
 public class Tematica implements Serializable {
 
     @Id
@@ -64,6 +63,12 @@ public class Tematica implements Serializable {
 
     public void setHabilitado(boolean habilitado) {
         this.habilitado = habilitado;
+    }
+
+    @Override
+    public String toString() {
+        return "Tematica{" + "id=" + id + ", codigo=" + codigo + ", descripcion=" + descripcion + ", habilitado="
+               + habilitado + ", oldId=" + oldId + '}';
     }
 
 }
